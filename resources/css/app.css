@@ -1,0 +1,82 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+[x-cloak] { 
+    display: none !important; 
+}
+
+.label-level-1{
+    color: rgb(255 255 255 / 1);
+    font-weight: 700;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(68, 185, 239);
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;    
+}
+
+.label-level-2{
+    color: rgb(255 255 255 / 1);
+    font-weight: 700;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(68, 239, 68);
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;    
+}
+
+.label-level-3{
+    color: rgb(255 255 255 / 1);
+    font-weight: 700;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(239, 213, 68);
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;    
+}
+
+.label-level-4{
+    color: rgb(255 255 255 / 1);
+    font-weight: 700;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(239, 145, 68);
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;    
+}
+
+.label-level-5{
+    color: rgb(255 255 255 / 1);
+    font-weight: 700;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(239 68 68 / 1);
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;    
+}
+
+.cliente-1{    
+    background: #a7ffbd;
+}
+.cliente-2{    
+    background: #a7eaff;
+}
+.cliente-3{    
+    background: #baa7ff;
+}

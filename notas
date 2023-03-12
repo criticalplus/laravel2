@@ -1,0 +1,31 @@
+
+        /* $list = DB::connection('mysql')
+        ->table('users')
+        ->leftJoin('entradas_contenido_ES', 'entradas.identrada', '=', 'entradas_contenido_ES.identrada')
+        ->leftJoin('secciones_ES', 'entradas.idcategoria', '=', 'secciones_ES.idseccion')
+        ->select('entradas.identrada','entradas.idcategoria','entradas.autor','entradas.fechapublicacion','entradas_contenido_ES.avance', 'entradas_contenido_ES.titular','entradas_contenido_ES.alias',
+        'entradas_contenido_ES.video','secciones_ES.alias AS categoria', DB::raw('(SELECT archivo FROM entradas_imagenes WHERE entradas_imagenes.identrada=entradas.identrada ORDER BY entradas_imagenes.orden ASC LIMIT 1) as imagen'), DB::raw('(SELECT archivo_folder FROM entradas_imagenes WHERE entradas_imagenes.identrada=entradas.identrada ORDER BY entradas_imagenes.orden ASC LIMIT 1) as imagen_folder')  )
+        ->where(function ($q) use ($tag_id){
+            $q->where('entradas_contenido_ES.wd_tema',$tag_id)
+            ->orWhereRaw("FIND_IN_SET(?, entradas_contenido_ES.wd_tags) > 0", [$tag_id])
+            ;
+        })
+        ->whereIn('entradas.idcategoria',[2,3,4,5,6,7,8,11])
+        ->where('entradas.activo',1)
+        ->where('entradas.fechapublicacion','<',$fecha)
+        ->orderby('entradas.fechapublicacion','DESC')
+        ->orderby('entradas_contenido_ES.wd_tema','ASC')
+        ->limit(($num_entradas_main+6))
+        ->get(); */
+
+
+   /*      $domains=Domain::where('title', 'LIKE', "%$cadena_buscar%")
+            ->orWhere('due_date', 'LIKE', "%$cadena_buscar%")
+            ->orWhereHas('customer', function($q) use ($cadena_buscar) {
+                $q->where('first_name', 'LIKE', "%$cadena_buscar%")
+                ->orWhere('last_name', 'LIKE', "%$cadena_buscar%");
+            })
+            ->orderBy($this->sortField,$this->sortDirection)
+            ->paginate($this->perPage); */
+
+
